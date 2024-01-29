@@ -1,0 +1,105 @@
+/* -----------------Profile------------------- */
+h1 {
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 0px;
+}
+.profile_container {
+  width: 65%;
+  margin: auto;
+}
+.profile_main {
+  padding: 20px;
+}
+.profile-left {
+  width: auto;
+}
+.profile-left img {
+  width: 300px;
+  height: 300px;
+}
+.profile-left a {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
+  color: #fff;
+  background: #0f3460;
+  justify-content: center;
+  border-radius: 5px;
+  width: auto;
+  height: 45px;
+  align-items: center;
+}
+.profile-left a:hover {
+  color: #fff;
+  background: #e21033;
+}
+.profile-right {
+  padding: 0px 20px 0px 20px;
+  width: 50%;
+}
+.profile_item {
+  padding: 20px 0px 0px;
+}
+.profile_item h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.profile_item p {
+  color: #e21033;
+  background: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.profile-right a {
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+  color: #fff;
+  background: #e21033;
+  justify-content: center;
+  border-radius: 5px;
+  width: 50%;
+  height: 45px;
+  align-items: center;
+}
+.profile-right a:hover {
+  color: #fff;
+  background: #0f3460;
+}
+/* -----------------ProfileUpdate------------------- */
+.profileUpdate_container {
+  width: 50%;
+  margin: auto;
+}
+.profileUpdate_main button {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  justify-content: center;
+  width: 100px;
+  height: 40px;
+  font-size: 17px;
+  font-weight: 500;
+}
+/* ------------ */
+.changepassword_container {
+  width: 50%;
+  margin: auto;
+}
+.changepassword_main button {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  justify-content: center;
+  width: 100px;
+  height: 40px;
+  font-size: 17px;
+  font-weight: 500;
+}

@@ -1,0 +1,43 @@
+.lamdep {
+    .label-upload {
+        padding: 5px;
+        border-radius: 3px;
+        background: #ddd;
+        cursor: pointer;
+        &.hover {
+            opacity: 0;
+        }
+    }
+    .preview-image {
+        height: 50px;
+        width: 100%;
+        border: 1px solid #ddd;
+        background: center center no-repeat;
+        background-size: contain;
+        cursor: pointer;
+    }
+}
+
+.phantrang {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* In your CSS file or React component's stylesheet */
+
+.imagene {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    background-size: contain;
+    background-repeat: no-repeat; /* Ngăn chặn lặp lại ảnh */
+    background-position: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.imagene:hover {
+    transform: scale(3.5);
+}

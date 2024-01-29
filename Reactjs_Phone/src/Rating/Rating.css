@@ -1,0 +1,121 @@
+/**
+ * Để cho đơn giản nhất mình dùng icon star của font awesome.
+ * À mà khoan, ở đây chúng ta chỉ làm tut nhỏ nên thấy import cả 1 library font-awesome có vẻ hơi quá đáng đã vậy còn ngược lại tiêu chí 
+ * "HẠN CHẾ TỐI DÙNG THƯ VIỆN NGOÀI" :D chắc các bạn nghĩ thế nhỉ? Hiện tại chúng ta chỉ implement 1 tut nhỏ thì có vẻ thừa, 
+ * nhưng trong project mình đang code có sẵn font-awesome nên trên thực tế mình đâu có * thêm gì đâu :D
+ */
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+/*reset css*/
+
+label {
+  margin: 0;
+  padding: 0;
+}
+
+/****** Style Star Rating Widget *****/
+#rating {
+  border: none;
+  float: left;
+}
+#rating > input {
+  display: none;
+
+} /*ẩn input radio - vì chúng ta đã có label là GUI*/
+#rating > label:before {
+  margin: 5px;
+  font-size: 2.5em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+} /*1 ngôi sao*/
+#rating > .half:before {
+  content: "\f089";
+  position: absolute;
+} /*0.5 ngôi sao*/
+#rating > label {
+  color: #ddd;
+  float: right;
+} /*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
+/*thêm màu cho sao đã chọn và các ngôi sao phía trước*/
+#rating > input:checked ~ label,
+#rating:not(:checked) > label:hover,
+#rating:not(:checked) > label:hover ~ label {
+  color: #ffd700;
+}
+/* Hover vào các sao phía trước ngôi sao đã chọn*/
+#rating > input:checked + label:hover,
+#rating > input:checked ~ label:hover,
+#rating > label:hover ~ input:checked ~ label,
+#rating > input:checked ~ label:hover ~ label {
+  color: #ffed85;
+}
+#rating {
+  width: 67%;
+}
+label {
+  cursor: pointer;
+}
+div {
+  background-color: #ffffff;
+}
+.Text textarea {
+  padding: 5px;
+  position: relative;
+  padding-bottom: 20px;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  display: inline-flex;
+  width: 100%;
+  height: 50px;
+}
+.Name input {
+  width: 100%;
+  padding: 12px 20px;
+
+  display: inline-block;
+  border: 1px solid #ccc;
+border-radius: 12px;
+  box-sizing: border-box;
+}
+.Name {
+  width: 40%;
+  display: inline-block;
+  background: white;
+}
+.SĐT input {
+  width: 100%;
+  padding: 12px 20px;
+
+  display: inline-block;
+  border: 1px solid #ccc;
+ border-radius: 12px;
+  box-sizing: border-box;
+}
+.SĐT {
+  width: 40%;
+  display: inline-block;
+  background: white;
+}
+.anh {
+  width: 100%;border-radius: 12px;
+}
+.container {
+  width: 580px;
+  height: auto;
+  background: white;
+  margin: auto;
+  padding: 40px 60px;
+}
+button {
+ border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #00bfff;
+  width: 100%;
+}

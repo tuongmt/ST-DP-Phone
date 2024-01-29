@@ -1,0 +1,131 @@
+.loginsignup {
+  width: 100%;
+  height: 80hv;
+  background: #f6f9fc;
+  padding: 50px;
+}
+.login-container {
+  width: 580px;
+  height: auto;
+  background: white;
+  margin: auto;
+  padding: 40px 60px;
+}
+.login-container h1 {
+}
+.login-container button {
+  width: 100%;
+  height: 65px;
+  color: #fff;
+  background: #ff4141;
+  margin-top: 30px;
+  border: none;
+  font-size: 24px;
+  font-weight: 500;
+}
+.login-container button:hover {
+  color: #ffd6f4;
+  background: #ff4141;
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+}
+.signup-container {
+  width: 580px;
+  height: auto;
+  background: white;
+  margin: auto;
+  padding: 40px 60px;
+}
+.signup-container h1 {
+  margin: 20px 0px;
+}
+.signup-container button {
+  width: 100%;
+  height: 65px;
+  color: #fff;
+  background: #ff4141;
+  margin-top: 30px;
+  border: none;
+  font-size: 24px;
+  font-weight: 500;
+}
+.signup-container button:hover {
+  color: #ffd6f4;
+  background: #ff4141;
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.input-data {
+  height: 65px;
+  width: 100%;
+  position: relative;
+  margin-top: 30px;
+}
+
+.input-data input {
+  height: 100%;
+  width: 100%;
+  padding-left: 20px;
+  border: none;
+  font-size: 18px;
+  outline: none;
+  color: #5c5c5c;
+  border: 1px solid #c9c9c9;
+  position: relative; /* Đặt vị trí là tương đối */
+}
+
+.input-data span {
+  position: absolute;
+  margin-left: -40px;
+  margin-top: 20px;
+  /* Sử dụng top và left để điều chỉnh vị trí của span trong input */
+}
+
+.input-data input:focus ~ label,
+.input-data input:valid ~ label {
+  transform: translateY(-40px);
+  font-size: 15px;
+  color: #ff4141;
+}
+.input-data label {
+  position: absolute;
+  bottom: 20px;
+  padding-left: 20px;
+  left: 0px;
+  color: grey;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.input-data .underline {
+  position: absolute;
+  bottom: 0px;
+  height: 2px;
+  width: 100%;
+}
+.input-data .underline::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: #ff4141;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+.input-data input:focus ~ .underline::before,
+.input-data input:valid ~ .underline::before {
+  transform: scaleX(1);
+}
+.loginsignup-signup {
+  margin-top: 20px;
+  color: #5c5c5c;
+  font-size: 18px;
+  font-weight: 500;
+}
+.loginsignup-signup span {
+  color: #ff4141;
+
+  font-weight: 600;
+}

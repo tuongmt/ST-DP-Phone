@@ -1,0 +1,60 @@
+.wrapper-pd {
+  padding: 30px;
+}
+.wrapper-ap {
+  padding: 0px 30px 30px 30px;
+}
+.product-info {
+  width: 1000px;
+  flex: 1;
+  padding: 0px 50px;
+}
+.product-info button {
+  width: 300px;
+  height: 50px;
+}
+.product-info i {
+  font-weight: bold;
+  font-size: large;
+  text-transform: uppercase;
+}
+.product-info span {
+  font-weight: bold;
+  font-size: large;
+  text-transform: uppercase;
+}
+.product-info h2 {
+  margin: 20px 0px;
+}
+.desc {
+  margin: 20px 0px;
+}
+.price-pd {
+  font-size: larger;
+  color: #e94560;
+}
+.price-pd h4 {
+  margin-bottom: 20px;
+}
+.price-pd button {
+  width: 40px;
+  height: 40px;
+}
+.btn-prodet button {
+  margin: 20px 40px 20px 0px;
+}
+.btn-prodet span {
+  color: black;
+  margin: 20px 40px 20px 0px;
+}
+.pd-item {
+  margin: 4px 0px 4px 0px;
+}
+.username {
+  font-weight: 800;
+  font-size: large;
+}
+.img-pd img{
+  width: 70%;
+  height: 100%;
+}

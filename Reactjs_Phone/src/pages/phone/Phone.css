@@ -1,0 +1,114 @@
+.contentWidth {
+  margin-left: 30px;
+}
+.heading-p h1 {
+  color: #e94560;
+  padding: 20px 0px 0px 0px;
+  text-align: center;
+  font-size: xx-large;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.grid1-p {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+.product {
+  transition: 0.5s;
+}
+.product:hover {
+  box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
+}
+.pagination {
+  padding: 20px;
+}
+.pagination button {
+  font-size: larger;
+  cursor: pointer;
+  background: none;
+  transition: 0.5s;
+  border: 1px solid rgb(3 0 71 / 9%);
+  width: 80px;
+  height: 35px;
+  border-radius: 5px;
+}
+.pagination button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: #fff;
+}
+
+
+.list-Brand {
+  display: flex;
+ 
+  display: inline-block; /* Sử dụng inline-block để mỗi phần tử nằm ngang */
+  height: 34px;
+  width: 107.6px;
+  border: 1px solid #E5E7EB;
+  box-sizing: border-box;
+  margin-right: 10px; /* Khoảng cách giữa các phần tử, bạn có thể điều chỉnh theo ý muốn */
+  
+}
+
+.list-Brand img {
+  height: 20px;
+  width: 98px;
+  cursor: pointer;
+  transform: none;
+
+  margin: 4 auto;
+
+  
+  
+}
+
+.sapxep{
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 5px;
+  font-family: sans-serif;
+  line-height: 27px;
+  text-decoration: none solid rgb(74 74 74);
+  margin-bottom: 10px;
+}
+
+
+span.high {
+  font-weight: bold;
+  color: black;
+  font-size: 13px;
+  font-weight: 400;
+  border: 1px solid black; 
+  border-radius: 4px;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+/* CSS for span with class "low" */
+span.low {
+  font-weight: bold;
+  color: black;
+  font-size: 13px;
+  font-weight: 400;
+  border: 1px solid black; 
+  border-radius: 4px;
+  padding: 5px; 
+  margin: 5px; 
+  cursor: pointer;
+}
+
+/* CSS for span with class "high" when active */
+span.high.active {
+ color: red;
+  background-color: wheat; /* Màu nền thay đổi khi đang nhấn */
+  border-color: red; /* Màu đường viền thay đổi khi đang nhấn */
+}
+
+/* CSS for span with class "low" when active */
+span.low.active {
+  color: red;
+  background-color: wheat; /* Màu nền thay đổi khi đang nhấn */
+  border-color: red; /* Màu đường viền thay đổi khi đang nhấn */
+}

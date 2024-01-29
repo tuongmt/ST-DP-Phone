@@ -1,0 +1,101 @@
+.oh_wrapper{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+
+    .table_1{
+      margin: 20px 0px;
+    }
+    tbody tr:hover {
+      background-color: #ddd;
+    }
+    tbody th img:hover {
+      transform: scale(1.5);
+    }
+    img {
+      width: 90px;
+      height: 90px;
+      cursor: pointer;
+    }
+    table{
+      border: 1px solid #333;
+      width: 100%;
+    }
+    tr,
+      th {
+        border: 1px solid black;
+        padding: 8px;
+      }
+      tr,
+      td {
+        border: 1px solid black;
+        padding: 8px;
+      }
+    .history {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+      }
+      .history th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #04aa6d;
+        color: white;
+      }
+      .history tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+      
+      .history tr:hover {
+        background-color: #ddd;
+      }
+
+      .description {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      .description td {
+        padding: 8px;
+        text-align: left;
+        margin-left: 1em;
+      }
+      
+      
+      .button1 {
+        border: none;
+        background-color: #04aa6d;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        cursor: pointer;
+        margin: 4px 2px;
+        font-size: larger;
+      }
+      .button_del {
+        border-radius: 10px;
+        display: inline-block;
+        cursor: pointer;
+        margin: 4px 2px;
+        text-align: center;
+        border: none;
+        background-color: #f44336;
+        color: #fff;
+        transform: scale(1);
+        padding: 10px 20px;
+      }
+      .a_detail{
+        text-decoration: none;
+        border-radius: 10px;
+        display: inline-block;
+        cursor: pointer;
+        margin: 4px 2px;
+        text-align: center;
+        border: none;
+        background-color: rgb(241, 147, 53);
+        color: #fff;
+        transform: scale(1);
+        padding: 10px 20px;
+      }
+}
