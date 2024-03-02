@@ -4,7 +4,7 @@ const { sequelize } = require("../models");
 
 module.exports = {
     up: async(queryInterface, Sequelize) => {
-        await queryInterface.createTable('orderdetails', {
+        await queryInterface.createTable('orderdetail', {
             id: {
                 allowNull: false,
                 autoIncrement: true,
@@ -37,6 +37,6 @@ module.exports = {
         });
     },
     down: async(queryInterface, Sequelize) => {
-        await queryInterface.dropTable('orderdetails');
+        await queryInterface.dropTable('orderdetail');
     }
 };
